@@ -10,10 +10,9 @@
         <h2>Edit Note</h2>
         <form method="post" action="note">
             Title: <input type="text" name="title" value="${title}"><br>
-            <label for="contents">Contents:</label>
-            <textarea name="contents" rows="5" cols="33" value="${contents}">
+            <label for="contents">Contents:</label> <input type="text" name="contents" value="${contents}">
                 
-            </textarea>
+            
             <button type="submit" name="savenote" onclick="">Submit</button>
         </form>
         
